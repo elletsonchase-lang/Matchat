@@ -1,0 +1,12 @@
+{
+  "name": "matchat",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Safety-first chat platform scaffold",
+  "scripts": {
+    "check": "node scripts/check-structure.js",
+    "db:migrate": "echo 'Use your preferred migration tool to run SQL in db/migrations'",
+    "api:dev": "node apps/api/src/server.js",
+    "api:check": "node apps/api/src/server.js --check"
+  }
+}
